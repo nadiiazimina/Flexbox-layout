@@ -1,0 +1,49 @@
+.numbers {
+    width: 30%;
+    height: 45%;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+.numbers_container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.list {
+    background-color: grey;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    
+
+}
+
+.main_container {
+    display: flex;
+    width: 90%;
+    gap: 10px;
+    height: 90%;
+    align-items: center;
+    
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
